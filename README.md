@@ -10,14 +10,14 @@ The links to test repos are below. Each test repo has its own readme explaining 
 The tests:
 1. Creates an onboarding PR and its cache [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
 2. Invalidates & Updates cache  [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
-3. Falls back to git if cache invalid & update cache
+3. Falls back to git if cache invalid & update cache [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
 4. Adds cache for existing onboarding PRs [onboarding-4](https://github.com/RahulGautamSingh-testing/onboarding-4)
-5. Test new logic on PRs opened by old logic
+5. Test new logic on PRs opened by old logic [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
 6. Updates onboarding PR body when:
     - baseBranch updated
-    - onboardingBranch updated
+    - onboardingBranch updated [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
 7. Skips conflicted branch and adds a comment
 8. Seeing what happens when we run with new logiv on a old conflicted/modified branch 
 9. Running on a closed onboarding PR
 10. Running on a repo which merged the onboarding PR
-11. Invalidates extract cache when onboarding branch is modified
+11. Invalidates extract cache when onboarding branch is modified [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
