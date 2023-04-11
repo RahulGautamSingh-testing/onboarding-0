@@ -9,7 +9,7 @@ The links to test repos are below. Each test repo has its own readme explaining 
 
 The tests:
 1. Creates an onboarding PR and its cache
-2. Updates cache each run
+2. Invalidates & Updates cache  [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1) for 1 & 2
 3. Falls back to git if cache invalid & update cache
 4. Adds cache for existing onboarding PRs [onboarding-4](https://github.com/RahulGautamSingh-testing/onboarding-4)
 5. Test new logic on PRs opened by old logic
