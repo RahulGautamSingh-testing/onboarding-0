@@ -20,3 +20,4 @@ The tests:
 8. Seeing what happens when we run with new logiv on a old conflicted/modified branch 
 9. Running on a closed onboarding PR
 10. Running on a repo which merged the onboarding PR
+11. Invalidates extract cache when onboarding branch is modified
