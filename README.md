@@ -13,7 +13,9 @@ The tests:
 3. Falls back to git if cache invalid & update cache
 4. Adds cache for existing onboarding PRs
 5. Test new logic on PRs opened by old logic
-6. Updates onboarding PR body when i) baseBranch updated ii) onboardingBranch modified
+6. Updates onboarding PR body when 
+  i) baseBranch updated 
+  ii) onboardingBranch modified
 7. Skips conflicted branch and adds a comment
 8. Seeing what happens when we run with new logiv on a old conflicted/modified branch 
 9. Running on a closed onboarding PR
