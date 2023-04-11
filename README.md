@@ -21,3 +21,4 @@ The tests:
 9. Running on a closed onboarding PR
 10. Running on a repo which merged the onboarding PR
 11. Invalidates extract cache when onboarding branch is modified [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
+12. Disable cache and it should still work fine
