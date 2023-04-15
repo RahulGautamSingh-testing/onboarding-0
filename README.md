@@ -19,6 +19,6 @@ The tests:
 7. Skips conflicted branch and adds a comment
 8. Seeing what happens when we run with new logiv on a old conflicted/modified branch 
 9. Running on a closed onboarding PR [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
-10. Running on a repo which merged the onboarding PR
+10. Running on a repo which merged the onboarding PR [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
 11. Invalidates extract cache when onboarding branch is modified [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
 12. Disable cache and it should still work fine
