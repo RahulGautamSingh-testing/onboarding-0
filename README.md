@@ -16,7 +16,7 @@ The tests:
 6. Updates onboarding PR body when:
     - baseBranch updated [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
     - onboardingBranch updated [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
-7. Skips conflicted branch and adds a comment
+7. Skips conflicted branch and adds a comment [onboarding-2](https://github.com/RahulGautamSingh-testing/onboarding-2)
 8. Seeing what happens when we run with new logiv on a old conflicted/modified branch 
 9. Running on a closed onboarding PR [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
 10. Running on a repo which merged the onboarding PR [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
