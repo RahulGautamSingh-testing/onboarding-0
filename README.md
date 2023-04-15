@@ -12,7 +12,7 @@ The tests:
 2. Invalidates & Updates cache  [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
 3. Falls back to git if cache invalid & update cache [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
 4. Adds cache for existing onboarding PRs [onboarding-4](https://github.com/RahulGautamSingh-testing/onboarding-4)
-5. Test new logic on existing PRs [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
+5. Test new logic on existing PRs 
 6. Updates onboarding PR body when:
     - baseBranch updated [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
     - onboardingBranch updated [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
