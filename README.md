@@ -2,23 +2,26 @@
 
 This repo only has a readme file and will house links to other test repos that will be used to perform a series of tests to check the new onbaording logic.
 The new onboarding logic has 2 new components :
-1. It merges onboarding branch into base branch 
-2. It uses cache to store modified/conflicted states
 
-The links to test repos are below. Each test repo has its own readme explaining the details of the test.
+## Tests on PRs created using new logic
 
-The tests:
-1. Creates an onboarding PR and its cache [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
-2. Invalidates & Updates cache  [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
-3. Falls back to git if cache invalid & update cache [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
-4. Adds cache for existing onboarding PRs [onboarding-4](https://github.com/RahulGautamSingh-testing/onboarding-4)
-5. Test new logic on existing PRs 
-6. Updates onboarding PR body when:
-    - baseBranch updated [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
-    - onboardingBranch updated [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
-7. Skips conflicted branch and adds a comment [onboarding-2](https://github.com/RahulGautamSingh-testing/onboarding-2)
-8. Seeing what happens when we run with new logiv on a old conflicted/modified branch 
-9. Running on a closed onboarding PR [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
-10. Running on a repo which merged the onboarding PR [onboarding-1](https://github.com/RahulGautamSingh-testing/onboarding-1)
-11. Invalidates extract cache when onboarding branch is modified [onboarding-3](https://github.com/RahulGautamSingh-testing/onboarding-3)
-12. Disable cache and it should still work fine
+- Creates an onboarding PR
+- Adds a comment when onboarding PR is closed
+- Detects that onboarding PR is merged and deletes onboarding cache
+- Updates PR body when baseBranch is updated
+- Updates PR body when onboarding branch is modified
+- Adds a comment when onboarding branch is conflicted and skip processing the onboarding branch
+
+## Tests on PRs created existing logic ie. runs on existing onboaridng PRs
+
+- Updates the onboarding cache when run on an existing PR
+- Adds a comment when onboarding PR is closed
+- Detects that onboarding PR is merged and deletes onboarding cache
+- Updates PR body when baseBranch is updated
+- Updates PR body when onboarding branch is modified
+- Adds a comment when onboarding branch is conflicted and skip processing the onboarding branch
+
+## Miscellaneous
+
+- dryRun
+- cache: disabled
