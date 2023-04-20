@@ -58,10 +58,5 @@ DEBUG: Create Onboarding Cache (repository=RahulGautamSingh-testing/onboarding-4
 - Detects that onboarding PR is merged and deletes onboarding cache(if present) https://github.com/RahulGautamSingh-testing/testOnboarding/pull/3
 - Updates PR body when baseBranch is updated https://github.com/RahulGautamSingh-testing/onboarding-4/pull/1#issue-1661697175
 ![image](https://user-images.githubusercontent.com/99875673/233264934-f9a6e61d-7428-4fa1-9996-3fa006910e10.png)
-- Updates PR body when onboarding branch is modified 
-- Adds a comment when onboarding branch is conflicted and skip processing the onboarding branch
+- Updates PR body when onboarding branch is modified https://github.com/RahulGautamSingh-testing/onboarding-4/pull/1#issue-1661697175
 
-## Miscellaneous
-
-- dryRun
-- cache: disabled
